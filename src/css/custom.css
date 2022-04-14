@@ -40,8 +40,11 @@
 .footer {
   background-color: #FFFFFF;
   margin-top: 20px;
-  background: url(/static/img/footer-bottom.jpg) no-repeat;
+  background: url(/static/img/footer-bottom.jpg) repeat-x;
 }
 .footer__copyright {
   margin-top: 20px;
+}
+[data-theme='dark'] .navbar__logo {
+  background: url(/static/img/logo-doc-white.svg);
 }

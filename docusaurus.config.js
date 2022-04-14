@@ -109,7 +109,14 @@ const config = {
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    
     ({
+      algolia: {
+        appId: '34H12TP0EB',
+        apiKey: '4114cd4f532283f35b5f823f93cb25eb',
+        indexName: 'yy c',
+        contextualSearch: true,
+      },
       navbar: {
         logo: {
           alt: 'My Site Logo',
