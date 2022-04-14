@@ -156,7 +156,7 @@ const config = {
       },
       footer: {
         // style: 'dark',
-        copyright: `Copyright © 2021 瀚高基础软件股份有限公司 | 备案号：鲁ICP备09010331号-3`,
+        copyright: `Copyright © 2022 瀚高基础软件股份有限公司 | 备案号：鲁ICP备09010331号-3`,
        
       },
       prism: {
