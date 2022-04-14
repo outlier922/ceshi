@@ -1,7 +1,5 @@
 ---
-id: greeting123
 slug: manualDep
-title: 等等111
 sidebar_position: 2
 ---
 
