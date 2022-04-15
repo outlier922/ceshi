@@ -42,6 +42,12 @@ const config = {
   ],
   plugins: [
     [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        // Options here
+      },
+    ],
+    [
       '@docusaurus/plugin-content-docs',
       {
         id: 'community',
@@ -111,12 +117,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     
     ({
-      algolia: {
-        appId: '34H12TP0EB',
-        apiKey: '4114cd4f532283f35b5f823f93cb25eb',
-        indexName: 'yy c',
-        contextualSearch: true,
-      },
+      // algolia: {
+      //   appId: '34H12TP0EB',
+      //   apiKey: '4114cd4f532283f35b5f823f93cb25eb',
+      //   indexName: 'yy c',
+      //   contextualSearch: true,
+      // },
       navbar: {
         logo: {
           alt: 'My Site Logo',
@@ -171,21 +177,6 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-    themes: [
-      // ... Your other themes.\
-      [
-        require.resolve("@easyops-cn/docusaurus-search-local"),
-        {
-          // ... Your options.
-          // `hashed` is recommended as long-term-cache of index file is possible.
-          hashed: true,
-          // For Docs using Chinese, The `language` is recommended to set to:
-          // ```
-          // language: ["en", "zh"],
-          // ```
-        },
-      ],
-    ],
 };
 
 module.exports = config;
