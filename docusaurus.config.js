@@ -172,7 +172,7 @@ const config = {
       },
     }),
     themes: [
-      // ... Your other themes.
+      // ... Your other themes.\
       [
         require.resolve("@easyops-cn/docusaurus-search-local"),
         {
