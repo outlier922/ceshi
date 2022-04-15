@@ -45,6 +45,6 @@
 .footer__copyright {
   margin-top: 20px;
 }
-/* [data-theme='dark'] .navbar__logo {
+[data-theme='dark'] .navbar__logo {
   background: url(/static/img/logo-doc-white.svg);
-} */
+}
