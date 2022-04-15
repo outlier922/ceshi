@@ -45,6 +45,19 @@
 .footer__copyright {
   margin-top: 20px;
 }
-[data-theme='dark'] .navbar__logo {
+/* [data-theme='dark'] .navbar__logo {
   background: url(/static/img/logo-doc-white.svg);
+} */
+.navbar__logo {
+  height: auto;
+  width: 250px;
+}
+.navbar__inner {
+  flex-wrap: nowrap;
+}
+.breadcrumbs {
+  display: none;
+}
+.toggleButton_node_modules-\@docusaurus-theme-classic-lib-next-theme-ColorModeToggle-styles-module {
+  display: none !important;
 }
