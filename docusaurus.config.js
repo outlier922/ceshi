@@ -176,10 +176,10 @@ const config = {
       [
         require.resolve("@easyops-cn/docusaurus-search-local"),
         {
-          docsRouteBasePath: '/docs',
           // ... Your options.
           // `hashed` is recommended as long-term-cache of index file is possible.
           hashed: true,
+          docsRouteBasePath: ["/docs","/community",,"manualDep","problemMenu","/sql","applicationDep"],
           // For Docs using Chinese, The `language` is recommended to set to:
           // ```
           language: ["en", "zh"],
